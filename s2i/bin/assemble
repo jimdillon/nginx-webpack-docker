@@ -4,7 +4,7 @@ set -e
 set -x
 
 echo "---> Installing application source"
-cp -vRf /tmp/src/. ./
+cp -vRf /tmp/src/ ./
 
 echo "---> Restoring NPM cache"
 if [ -d /tmp/artifacts/.npm ] ; then
